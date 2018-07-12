@@ -6,6 +6,7 @@
 	<title>FINESI</title>
 	<link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.min.css");?>">
 	<link rel="stylesheet" href="<?php echo base_url("assets/css/icon.css"); ?>">
+    <link rel="shortcut icon" href="<?php echo base_url("assets/img/finesi_logo.png"); ?>" type="image/x-icon">
 	<script type="text/javascript" src="<?php echo base_url("assets/js/jquery.min.js");?>"></script>
 	<script type="text/javascript" src="<?php echo base_url("assets/js/popper.min.js");?>"></script>
 	<script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap.min.js"); ?>"></script>
