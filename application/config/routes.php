@@ -52,3 +52,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['(:any)'] = 'appone/$1';
 $route['default_controller'] = 'appone';
+$route['translate_uri_dashes'] = FALSE;
