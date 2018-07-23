@@ -37,6 +37,7 @@
         <div class="col-8 offset-2 text-center">
             <p class="alert alert-dark">
                 SIRUWIFI en desarrollo! <span class="badge badge-warning">Nuevo!</span>
+
             </p>
 
             <h4 class="text-info"></h4>
