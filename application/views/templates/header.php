@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>FINESI</title>
+	<title>SIRUWIFI</title>
 	<link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.min.css");?>">
 	<link rel="stylesheet" href="<?php echo base_url("assets/css/icon.css"); ?>">
     <link rel="shortcut icon" href="<?php echo base_url("assets/img/finesi_logo.png"); ?>" type="image/x-icon">
@@ -15,7 +15,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
   	<img src="<?php echo base_url("assets/img/finesi_logo.png");?>" width="30" height="30" class="d-inline-block align-top" alt="">
-    FINESI-UNAP
+SIRUWIFI
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Inicio <span class="sr-only">(Menu)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Proximamente</a>
@@ -37,7 +37,3 @@
     </ul>
   </div>
 </nav>
-
-<div class="container">
-	<br>
-	<div class="row">
