@@ -4,12 +4,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>SIRUWIFI</title>
-	<link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.min.css");?>">
-	<link rel="stylesheet" href="<?php echo base_url("assets/css/icon.css"); ?>">
+    <link rel="stylesheet" href="<?php echo base_url("assets/css/icon.css"); ?>">
+    <link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.min.css");?>">
     <link rel="shortcut icon" href="<?php echo base_url("assets/img/finesi_logo.png"); ?>" type="image/x-icon">
 	<script type="text/javascript" src="<?php echo base_url("assets/js/jquery.min.js");?>"></script>
 	<script type="text/javascript" src="<?php echo base_url("assets/js/popper.min.js");?>"></script>
+    <script type="text/javascript" src="<?php echo base_url("assets/js/popperjs.min.js");?>"></script>
 	<script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap.min.js"); ?>"></script>
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
