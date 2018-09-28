@@ -1,14 +1,14 @@
 <div class="container">
     <br>
     <div class="row">
-        <div class="col-8 offset-2 text-center">
+        <div class="col-md-8 offset-md-2 text-center">
             <h4 class="text-info">¡BIENVENIDO USUARIO!</h4>
             <p class="alert alert-dark">
                 Mediante este sistema usted puede gestionar la cuenta de servicio de internet inalambrico.<span
                         class="badge badge-warning">Nuevo!</span>
             </p>
         </div>
-        <div class="col-4 offset-4 text-center">
+        <div class="col-md-4 offset-md-4 text-center">
                 <form action="">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Código" required>
