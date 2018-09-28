@@ -9,31 +9,20 @@
             </p>
         </div>
         <div class="col-4 offset-4 text-center">
-            <div class="search-box">
-                <div class="caption">
-                    <h4>Ingrese los datos requeridos</h4>
-                </div>
-                <form action="" class="loginForm">
+                <form action="">
                     <div class="input-group">
-                        <input type="text" id="name" class="form-control" placeholder="Full Name">
+                        <input type="text" class="form-control" placeholder="Código" required>
                     </div>
-                    <div class="input-group">
-                        <input type="password" id="paw" class="form-control" placeholder="Password">
-                    </div>
-                    <div class="input-group">
-                        <p id="pswd_info">
+                    <div id="pswd_info">
+                        <input type="password" class="form-control" placeholder="Contraseña" required>
+                        <span id="number" class="text-danger">Mínimo <strong>un número</strong></span> -
+                            <span id="length" class="text-danger">Mínimo <strong>8 caracteres</strong></span>
 
-                            <span id="number" class="invalid">At least <strong>one number</strong></span><br>
-                            <span id="length" class="invalid">Be at least <strong>8 characters</strong></span><br>
-
-                        </p>
                     </div>
                     <div class="input-group">
-                        <button class="btn btn-block btn-success">Siguiente >></button>
+                        <button disabled class="btn btn-block btn-success disabled">Siguiente >></button>
                     </div>
                 </form>
-            </div>
-            <div/>
         </div>
     </div>
 </div>
