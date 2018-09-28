@@ -7,41 +7,33 @@
                 Mediante este sistema usted puede gestionar la cuenta de servicio de internet inalambrico.<span
                         class="badge badge-warning">Nuevo!</span>
             </p>
-
-
         </div>
         <div class="col-4 offset-4 text-center">
-            <div class="text-center">
-                <div class="search-box">
-                    <div class="caption">
-                        <h3>Advance Password Validation</h3>
-                    </div>
-                    <form action="" class="loginForm">
-                        <div class="input-group">
-                            <input type="text" id="name" class="form-control" placeholder="Full Name">
-                            <input type="password" id="paw" class="form-control" placeholder="Password">
-                            <input type="submit" id="submit" class="form-control" value="Submit">
-                        </div>
-                    </form>
+            <div class="search-box">
+                <div class="caption">
+                    <h4>Ingrese los datos requeridos</h4>
                 </div>
-            </div>
-            <div class="">
-                <div class="aro-pswd_info">
-                    <div id="pswd_info">
-                        <h4>Password must be requirements</h4>
-                        <ul>
-                            <li id="letter" class="invalid">At least <strong>one letter</strong></li>
-                            <li id="capital" class="invalid">At least <strong>one capital letter</strong></li>
-                            <li id="number" class="invalid">At least <strong>one number</strong></li>
-                            <li id="length" class="invalid">Be at least <strong>8 characters</strong></li>
-                            <li id="space" class="invalid">be<strong> use [~,!,@,#,$,%,^,&,*,-,=,.,;,']</strong></li>
-                        </ul>
+                <form action="" class="loginForm">
+                    <div class="input-group">
+                        <input type="text" id="name" class="form-control" placeholder="Full Name">
                     </div>
-                </div>
+                    <div class="input-group">
+                        <input type="password" id="paw" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="input-group">
+                        <p id="pswd_info">
+
+                            <span id="number" class="invalid">At least <strong>one number</strong></span><br>
+                            <span id="length" class="invalid">Be at least <strong>8 characters</strong></span><br>
+
+                        </p>
+                    </div>
+                    <div class="input-group">
+                        <button class="btn btn-block btn-success">Siguiente >></button>
+                    </div>
+                </form>
             </div>
-
-
             <div/>
-
         </div>
     </div>
+</div>
